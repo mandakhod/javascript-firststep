@@ -124,3 +124,40 @@
 // if ((jil % 4 === 0 && jil % 100 !== 0) || jil % 400 == 0) {
 //   console.log("tiim");
 // } else console.log("ugui");
+
+// const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let sum = 0;
+// for (let i = 0; i < array.length; i++) {
+//   sum += array[i];
+// }
+// console.log(sum);
+
+// const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for (let i = 1; i < array.length; i++) {
+//   if (i % 2 === 0) console.log(i);
+// }
+
+// const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for (let i = 1; i < array.length; i++) {
+//   if (i % 2 === 1) console.log(i);
+// }
+
+// const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for (let i = 1; i < array.length; i++) {
+//   // array[i] = array[i] * 2;
+//   array[i] *= 2;
+// }
+// console.log(array);
+
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let zurgaa = 6;
+
+let bnu = false;
+
+for (let i = 1; i < array.length; i++) {
+  if (array[i] === zurgaa) {
+    bnu = true;
+    break;
+  }
+}
+console.log(bnu);
